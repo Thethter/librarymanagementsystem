@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Borrow Books</title>
+		<link href="img/bookicon.jpeg" rel="icon" type="image/jpeg" sizes="32x32" />
+		<link href="css/book.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+	
+	</head>
+
+	<body>
+		<nav>
+			<img src="img/logo.jpeg" width="100px" height="100px" style="border-radius: 100%;margin-left: 15px;" />
+			<h1>Book Paradise</h1>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="author.html">Our Books</a></li>
+				<li><a href="book.html">Borrow Books</a></li>
+				<li><a href="about.html">About Us</a></li>
+			</ul>
+		</nav>
+
+		<div class="container">
+			<h2>Home/Borrow Books</h2>
+		</div>
+
+		<div class="search">
+			<h2>What are you looking for at our library?</h2>
+			<input type="text" name="keyword" id="keyword" class="searchgp" placeholder="Search By keyword" />
+			<select name="author" id="author" class="searchgp">
+				<option value="1" disabled selected>Select By author</option>
+				<option value="2">Juu</option>
+				<option value="3">Ponya Khin</option>
+				<option value="4">Su Myat Mon</option>
+				<option value="5">Takkatho Bhone Naing</option>
+				<option value="6">U Bhone (Chemistry)</option>
+				<option value="7">Moe Moe(Innlya)</option>
+				<option value="8">Naing Naing(SaNay)</option>
+				<option value="9">Moe Shin(IMT)</option>
+				<option value="10">Journal Kyaw Mamalay</option>
+			</select>
+
+			<select name="cate" id="cate" class="searchgp">
+				<option value="1" disabled selected>All Categories</option>
+				<option value="2">Love</option>
+				<option value="3">Emotional</option>
+				<option value="4">Politics</option>
+				<option value="5">Poem</option>
+				<option value="6">Series</option>
+				<option value="13">Thriller</option>
+				<option value="13">Horror</option>
+				<option value="13">Politics</option>
+				<option value="7">Computer Science</option>
+				<option value="8">Bussiness</option>
+				<option value="9">Health</option>
+				<option value="10">Language Learning</option>
+				<option value="11">Web development</option>
+				<option value="12">Environmental Study</option>
+				<option value="13">Industrial Chemistry</option>
+			</select>
+
+			<button type="submit"><a href="#borrow" style="text-decoration: none;color:#323232">Borrow</a></button>
+		</div>
+
+
+		<div class="john">
+		<div id="borrow">
+			<b>Borrow Our Books </b><br/>
+			<img src="img/juu.jpeg" width="300px" height="350px" alt="juu" id="img1" style="padding:30px;" >
+			<img src="img/juu1.jpeg" width="280px" height="350px" alt="cs" id="img2" style="padding:30px;"><br/>
+			
+
+			<form action="" method="" enctype="multipart/form-data" class="form">
+
+
+			<div class="form-group">
+			<label for="username">Username</label>
+			<input type="text" name="username" id="username" class="form-control" placeholder="Enter username" autocomplete="off" />
+			</div>
+
+
+			<div class="form-group">
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" class="form-control" placeholder="Enter password" autocomplete="off" />
+			</div>
+
+
+			<div class="form-group">
+			<label for="book">Book Quantity</label>
+			<input type="number" name="book" id="book" class="form-control" placeholder="Enter book quantity" autocomplete="off" />
+			</div>
+
+
+
+			<div class="form-group">
+			<label for="sdate">Start Date</label>
+			<input type="date" name="sdate" id="sdate" class="form-control" placeholder="Enter your borrowing date" autocomplete="off" />
+			</div>
+
+			<div class="form-group">
+			<label for="edate">End Date(at least One week)</label>
+			<input type="date" name="edate" id="edate" class="form-control" placeholder="Enter your backing date" autocomplete="off" />
+			</div>
+
+			<a href="#"><span></span>Borrow</a>
+		</form>
+
+		</div>
+
+		<div class="img"></div>
+
+	</div>
+
+
+
+		<div class="footer">
+			<center>
+			<a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+			<a href="#" class="icon"><i class="fab fa-facebook-messenger"></i></a>
+			<a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+			<a href="#" class="icon"><i class="fab fa-pinterest"></i></a>
+			<small>All right Reserved By By Web Developement Foundation Batch5 Sir.Tin Htut Aung</small>
+			</center>
+		</div>
+	</body>
+</html>
